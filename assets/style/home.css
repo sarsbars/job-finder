@@ -6,6 +6,7 @@
 header {
     background: var(--background);
     padding: 5px 20px;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -33,6 +34,10 @@ nav .nav-list li {
         color: #000000;
         font-size: 1.8rem;
         font-weight: 400;
+        &:hover {
+            color: var(--font-color);
+            transition: color 0.25s ease-in-out; 
+        }
     }
   }
   
@@ -88,3 +93,53 @@ nav .nav-list li {
 .column {
     height: 80dvh; /* placeholder height. Heights will be determined by content*/
 }
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+/*                              Footer                                       */
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+
+
+/*---------------------------------------------------------------------------*/
+/*                               Footer                                      */
+/*---------------------------------------------------------------------------*/
+
+footer {
+    height: 60px;
+    margin-top: 10px;
+    color: #000;                                                
+    background-color: var(--alternate-background);
+  
+    ul li{
+        display: inline;
+  
+        a {
+            text-decoration: none;
+            height: 40px;
+            width: 40px;
+            padding: 5px;
+            border-radius: 50%;
+            font-size: 1.6rem;
+            background-color: #fff;
+            backdrop-filter: blur(100px) saturate(140%);
+            height: 30px;
+            width: 30px;
+            border: 1px solid #dcdcdc;
+            position: relative;
+            right: 2px;
+  
+            i {
+                color: #000;
+                line-height: 1.2;
+  
+                &:hover {
+                    color: var(--font-color);
+                    transition: color 0.25s ease-in-out; 
+                }
+            }
+        }
+    }
+  }
