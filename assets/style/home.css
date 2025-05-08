@@ -17,7 +17,5 @@
 }
 
 .column {
-    height: 80dvh;
-    width: 30%;
-    gap: 15px;
+    height: 80dvh; /* placeholder height. Heights will be determined by content*/
 }
