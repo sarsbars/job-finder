@@ -67,4 +67,24 @@ nav .nav-list li {
 
 .profile-img {
     border-radius: 50%;
+}.profile {
+    background-color: var(--background);
+    flex: 0 0 calc(25% - 20px);
+    max-width: calc(25% - 20px);
+}
+
+.main-feed {
+    background-color: var(--background);
+    flex: 0 0 calc(55% - 20px);
+    max-width: calc(55% - 20px);
+}
+
+.recommended {
+    background-color: var(--background);
+    flex: 0 0 calc(20%);
+    max-width: calc(20%);
+}
+
+.column {
+    height: 80dvh; /* placeholder height. Heights will be determined by content*/
 }
