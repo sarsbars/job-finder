@@ -14,7 +14,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-faily: var(--font);
 }
+
 
 .container {
     width: min(100% - 30px, 1080px);
