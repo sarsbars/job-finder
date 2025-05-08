@@ -7,6 +7,7 @@
       <meta name="description" content="Job Finder">
       <meta name="keywords" content="web development, html, css, javascript, winnipeg, canada">
       <title>Job Finder</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
@@ -17,5 +18,27 @@
       <script src="./assets/script/home.js" defer> </script>
   </head>
   <body>
+    <header>
+        <div class="flex space-between">
+          <div class="flex gap-40">
+            <div class="logo">
+                <img src="./assets/media/linkedin-icon.png">
+            </div>
+            <div class="flex center search-bar">
+                <input type="text" class="search" placeholder="Search">
+            </div>
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#"><i class="fas fa-network-wired"></i> Network</a></li>
+                    <li><a href="#"><i class="far fa-envelope"></i> Messaging</a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i> Notifications</a></li>
+                    <li><a href="#"><i class="fas fa-briefcase"></i> Jobs</a></li>
+                </ul>
+            </nav>
+            <div class="profile-corner"></div>
+          </div>
+        </div>
+    </header>
   </body>
 </html>
