@@ -50,6 +50,9 @@
     gap: 40px
 }
 
+.gap-60 {
+    gap: 60px
+}
 .column {
     flex-direction: column;
 }
