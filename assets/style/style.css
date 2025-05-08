@@ -26,6 +26,14 @@
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
 .align {
     align-items: center;
 }
@@ -52,7 +60,4 @@
 
 .gap-60 {
     gap: 60px
-}
-.column {
-    flex-direction: column;
 }
