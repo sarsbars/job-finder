@@ -82,9 +82,72 @@ nav .nav-list li {
 }
 
 .recommended {
-    background-color: var(--background);
+    /* background-color: var(--background); */
     flex: 0 0 calc(20%);
     max-width: calc(20%);
+
+    div {
+        width: 100%;
+        height: 50px;
+        background-color: var(--background);
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    ul {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    li {
+        width: 100%;
+        height: 100px;
+        background-color: var(--background);
+        padding: 10px;
+        
+        .pic-container {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+
+        .pic {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+        }
+
+        .info {
+            width: 100px;
+        }
+
+        .name {
+            font-size: 16px;
+            font-weight: 700;
+            white-space: nowrap;
+            text-overflow: ellipsis;
+            overflow: hidden;
+        }
+
+        .add {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            border: 1px solid var(--alternate-font);
+            color: var(--alternate-font);
+            background-color: var(--alternate-background);
+        }
+    }
+}
+
+.see-all {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .column {
