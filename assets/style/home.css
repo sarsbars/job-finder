@@ -96,7 +96,7 @@ nav .nav-list li {
 
     ul {
         width: 100%;
-        margin-top: 16px;
+        margin-top: 10px;
     }
 
     li {
@@ -139,6 +139,13 @@ nav .nav-list li {
             background-color: var(--alternate-background);
         }
     }
+}
+
+.see-all {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 8px;
 }
 
 .column {

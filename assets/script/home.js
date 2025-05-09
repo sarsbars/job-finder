@@ -4,6 +4,7 @@
 let users = [];
 
 const recommended = document.querySelector('.recommended-list');
+const seeAllBtn = document.querySelector('.see-all');
 
 const URL = "https://randomuser.me/api/?nat=CA&results=10&seed=name";
 
@@ -62,5 +63,13 @@ function createProfile(users) {
         recommended.append(profile);
     });
 }
+
+seeAllBtn.addEventListener('click', () => {
+    const hidden = document.querySelectorAll('.hide');
+    hidden.forEach(obj => {
+        obj.classList.remove('hide');
+    });
+    seeAllBtn.classList.add('hide');
+});
 
 getUsers(URL);
