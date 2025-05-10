@@ -40,7 +40,7 @@ function handleFormSubmit(e) {
         }
 
         if (username === savedUsername && password === savedPassword) {
-            alert('Login successful!');
+            alert('Account created! You can now log in.');
             window.location.href = 'home.html'; // redirect to main page
         } else {
             alert('Invalid credentials. Please try again.');
