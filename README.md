@@ -28,7 +28,7 @@ This is the final project for the Third Party API course, a web application insp
 ## Known Credentials for Testing
 
 For testing the login functionality, please use the following credentials:
-
+giit
 ## Future Developments
 
 -   Implement responsive design for better usability on various screen sizes.
