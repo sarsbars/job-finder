@@ -64,7 +64,7 @@
           <button class="premium-button">UPGRADE TO PREMIUM</button>
         </div>
 
-        <div class="main-feed">
+        <div class="main-feed flex-column">
 
           <section class="new-post">
             <form>
@@ -75,7 +75,9 @@
                 </label>
                 <div class="image-preview"></div>
                 <input type="file" class="get-image" accept="image/*" id="imageUpload">
-                <button type="button" class="show-image">Post</button>
+                <div class="button-container">
+                  <button class="show-image">Post</button>
+                </div>
               </div>
             </form>
           </section>
@@ -111,16 +113,19 @@
           </section>
         </div> 
 
-        <aside class="recommended">
+        <aside class="recommended flex-column">
           <div class="flex center align">
             <h2>People you might know:</h2>
           </div>
           <ul class="recommended-list">
           </ul>
-          <button class="see-all">See all</button>
+          <div class="button-container">
+            <button class="see-all">See all</button>
+          </div>
         </aside>
       </div>
     </main>
+
     <footer class="flex align">
         <div class="container flex space-between">
           <p>2025 &copy; Job Finder</p>
