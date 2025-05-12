@@ -1,3 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*                              Header                                       */
@@ -86,9 +98,9 @@ nav ul.nav-list li:last-child {
 /*  Main Feed  */
 
 .main-feed {
-    /* background-color: var(--background); */
     flex: 0 0 calc(55% - 20px);
     max-width: calc(55% - 20px);
+    overflow-y: auto; 
 }
 
 form { 
@@ -206,6 +218,8 @@ form {
 .recommended {
     flex: 0 0 calc(20%);
     max-width: calc(20%);
+    display: flex;
+    flex-direction: column;
 
     div {
         width: 100%;
@@ -264,6 +278,11 @@ form {
     }
 }
 
+.recommended-list {
+    flex: 1;
+    overflow-y: auto; 
+    margin-top: 10px;
+}
 .see-all {
     width: 100%;
     margin-top: 10px;
@@ -274,6 +293,12 @@ form {
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*                        Left-Profile Column                                */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+.left-column {
+    height: 600px; 
+    display: flex;
+    gap: 20px;
+}
 
 .left-profile {
     background-color: var(--background);
@@ -349,7 +374,7 @@ form {
 
 footer {
     height: 60px;
-    margin-top: 10px;
+    margin-top: 20px;
     color: #000;                                                
     background-color: var(--alternate-background);
   
