@@ -74,15 +74,127 @@ nav .nav-list li {
     border-radius: 50%;
 }
 
+/*  Main Feed  */
 
 .main-feed {
-    background-color: var(--background);
+    /* background-color: var(--background); */
     flex: 0 0 calc(55% - 20px);
     max-width: calc(55% - 20px);
 }
 
+form { 
+    background-color: var(--background);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: left;
+
+    textarea { 
+        width: 100%;
+        padding: 10px;
+        /* margin-bottom: 10px; */
+        border: none;
+        border-radius: 5px;
+        background-color: #fff;
+        color: #000;
+        resize: none;
+
+        &::placeholder { 
+            color: #B0B3B8;
+        }
+    }
+
+    .post-options { 
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        label { 
+                cursor: pointer;
+                font-size: 20px;
+        }
+        
+        input[type="file"] { 
+            display: none;
+        }
+
+        button { 
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    }
+}
+
+.post {
+    background-color: var(--background); 
+    border-radius: 8px;
+    margin-top: 20px; 
+    padding: 15px;
+    text-align: left; 
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.post-author-info {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.post-author-pic {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background-image: url('../media/No.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+.post-author-name {
+    font-weight: 700;
+}
+
+.post-date {
+    font-size: 0.85em;
+    color: #B0B3B8;
+}
+
+.content {
+    margin-bottom: 10px;
+    line-height: 1.4; 
+}
+
+.display-image {
+    border-radius: 8px;
+    overflow: hidden; 
+    max-width: 100%;
+
+    img {
+        display: block; 
+        width: 100%; 
+        height: auto; 
+    }
+}
+
+.interactive {
+    height: 26px;
+
+    div + div {
+        margin-left: 12px;
+    }
+
+    i {
+        margin-right: 4px;
+    }
+}
+
 .recommended {
-    /* background-color: var(--background); */
     flex: 0 0 calc(20%);
     max-width: calc(20%);
 
@@ -150,9 +262,6 @@ nav .nav-list li {
     border-radius: 8px;
 }
 
-.column {
-    height: 80dvh; /* placeholder height. Heights will be determined by content*/
-}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 /*                        Left-Profile Column                                */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
