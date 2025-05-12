@@ -63,6 +63,15 @@ nav .nav-list li {
     }
   }
 
+nav ul.nav-list li {
+    border-right: 1px solid #ccc; 
+    padding-right: 20px; 
+}
+  
+nav ul.nav-list li:last-child {
+    border-right: none; 
+}
+
 .profile-corner {
     width: 60px;
     height: 60px;
@@ -182,8 +191,21 @@ nav .nav-list li {
     }
 }
 
+
 .profile-count {
+    border-top: 1px solid #ccc; 
+    border-bottom: 1px solid #ccc;
     margin: 15px 0 50px 0;
+}
+
+.connections {
+    border-right: 1px solid #ccc;
+    padding-right: 30px;
+    padding-left: 10px;
+}
+
+.viewers {
+    padding-right: 30px;
 }
 
 .profile-name {
