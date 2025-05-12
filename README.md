@@ -21,14 +21,15 @@ This is the final project for the Third Party API course, a web application insp
 
 ## Team Members
 
--   **Sarah Mitchell:** Header, Footer, Left Profile Page, Merging User Data, README.
--   **Connor Hall:** Fetching user data from the Random User API.
+-   **Sarah Mitchell:** Team Leader, Header, Footer, Left Profile Page, README.
+-   **Connor Hall:** Fetching user data from the Random User API, Profile Page outline and middle column
 -   **Ousama Alzhouri:** Implementing the user login page and authentication.
 
 ## Known Credentials for Testing
 
-For testing the login functionality, please use the following credentials:
-giit
+For testing the login functionality, please "sign up" using any account and password information, and then
+login using those credentials 
+
 ## Future Developments
 
 -   Implement responsive design for better usability on various screen sizes.
