@@ -64,8 +64,54 @@
           <button class="premium-button">UPGRADE TO PREMIUM</button>
         </div>
 
-        <div class="main-feed column"></div>
-        <aside class="recommended column">
+        <div class="main-feed">
+
+          <section class="new-post">
+            <form>
+              <textarea placeholder="What's new, Luigi?" required></textarea>
+              <div class="post-options">
+                <label class="file-input-label" for="imageUpload">
+                  <i class="fas fa-image"></i>
+                </label>
+                <div class="image-preview"></div>
+                <input type="file" class="get-image" accept="image/*" id="imageUpload">
+                <button type="button" class="show-image">Post</button>
+              </div>
+            </form>
+          </section>
+
+          <section class="post">
+            <div class="post-header">
+              <div class="post-author-info">
+                <img class="post-author-pic" src="./assets/media/No.jpg">
+                <div class="post-author-name">Mario Mario</div>
+              </div>
+              <div class="post-date">March 14, 2025</div>
+            </div>
+            <div class="content">
+              Nice of the princess to invite us over for a picnic eh Luigi?
+            </div>
+            <div class="display-image">
+              <img src="./assets/media/cinema.jpg">
+            </div>
+            <div class="interactive flex">
+              <div class="flex align">
+                <i class="fa-regular fa-heart"></i>
+                <p>69</p>
+              </div>
+              <div class="flex align">
+                <i class="fa-regular fa-comment"></i>
+                <p>12</p>
+              </div>
+              <div class="flex align">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                <p>Share</p>
+              </div>
+            </div>
+          </section>
+        </div> 
+
+        <aside class="recommended">
           <div class="flex center align">
             <h2>People you might know:</h2>
           </div>
