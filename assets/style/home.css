@@ -290,12 +290,12 @@ form {
         height: 60px;
         padding: 10px;
     }
-    
+  
     .recommended-list {
-    flex: 1;
     overflow-y: auto; 
     margin-top: 10px;
 }
+
 .see-all {
         width: 100%;
         background-color: #fff;
